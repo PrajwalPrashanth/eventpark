@@ -9,6 +9,7 @@ function App() {
           className="absolute opacity-90"
           style={{ zIndex: -20 }}
           src={_DSC3004}
+          alt="Bg"
         />
         <div className="relative p-5 text-2xl text-white bg-purple-300 rounded-xl">
           Event Park
