@@ -15,19 +15,19 @@ const Nav = ({ className, aboutRef, galleryRef, contactRef, scrollToView }) => (
     ></img>
     <div className="mx-auto md:mr-auto text-white">
       <button
-        className="md:text-xl p-2 md:p-4 transform hover:text-yellow-400 hover:scale-125"
+        className="md:text-xl p-2 md:p-4 md:transform hover:text-yellow-400 hover:scale-125"
         onClick={() => scrollToView(aboutRef)}
       >
         About Us
       </button>
       <button
-        className="md:text-xl p-2 md:p-4 transform hover:text-yellow-400 hover:scale-125"
+        className="md:text-xl p-2 md:p-4 md:transform hover:text-yellow-400 hover:scale-125"
         onClick={() => scrollToView(galleryRef)}
       >
         Gallery
       </button>
       <button
-        className="md:text-xl p-2 md:p-4 transform hover:text-yellow-400 hover:scale-125"
+        className="md:text-xl p-2 md:p-4 md:transform hover:text-yellow-400 hover:scale-125"
         onClick={() => scrollToView(contactRef)}
       >
         Contact Us
