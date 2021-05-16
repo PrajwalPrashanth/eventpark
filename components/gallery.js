@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import PhotoGallery from "react-photo-gallery";
 import styles from "./gallery.module.css";
 import cn from "classnames";
-import Image from "next/image";
 
 const getFiMedia = (name) =>
   `https://firebasestorage.googleapis.com/v0/b/event-park.appspot.com/o/${name}?alt=media`;
@@ -105,7 +104,7 @@ const Gallery = ({ aboutRef, galleryRef }) => {
       >
         <div
           ref={aboutRef}
-          className="w-full md:w-3/12 bg-yellow-400 rounded-2xl md:rounded-l-2xl"
+          className="w-full md:w-3/12 bg-yellow-400 rounded-2xl md:rounded-none md:rounded-l-2xl"
         >
           <img
             className="object-cover h-25 w-20 mx-auto mt-6"
@@ -128,7 +127,7 @@ const Gallery = ({ aboutRef, galleryRef }) => {
         <div
           ref={galleryRef}
           className={cn(
-            "flex flex-col w-full md:w-9/12 mt-4 md:mt-0 overflow-scroll rounded-2xl md:rounded-r-2xl border border-yellow-400",
+            "flex flex-col w-full md:w-9/12 mt-4 md:mt-0 overflow-scroll rounded-2xl md:rounded-none md:rounded-r-2xl border border-yellow-400",
             styles.noscrollbar
           )}
         >
@@ -147,7 +146,7 @@ const Gallery = ({ aboutRef, galleryRef }) => {
             </div>
           </div>
           <div className="">
-            <PhotoGallery photos={photos} margin={1} ImageComponent={Image} />
+            <PhotoGallery photos={photos} margin={1} />
           </div>
         </div>
       </div>

@@ -92,8 +92,8 @@ const Footer = ({ contactRef }) => {
               <Phone size={40} className="text-white" />
               <Whatsapp size={40} className="text-white" />
             </div>
-            <span className="text-lg">+91 8123595943 - Ashok</span>
-            <span className="text-lg">+91 8123595943 - Deepa</span>
+            <span className="text-lg">+91 1234567891 - Ashok</span>
+            <span className="text-lg">+91 1234567891 - Deepa</span>
           </div>
           <div class="flex w-full md:w-4/12 my-6 md:my-0">
             <div className="flex space-x-8 m-auto">
