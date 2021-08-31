@@ -19,7 +19,7 @@ const socialMedia = [
   },
   {
     Icon: Instagram,
-    src: "https://Instagram.com",
+    src: "https://instagram.com/eventpark.bengaluru",
   },
 ];
 
