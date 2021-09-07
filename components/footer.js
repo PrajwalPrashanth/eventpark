@@ -31,7 +31,7 @@ const phoneNumbers = {
 const address = {
   body: `No.53/1, 1st Block Bhavan Housing Society, Banagirinagara, 
          Banshankari 3rd Stage, Bengaluru - 560085`,
-  landmark: "Landmark: Above Lassi shop",
+  landmark: "Landmark: Near KIMS College, Above Lassi shop",
 };
 
 const TestimonialCard = () => (
@@ -55,7 +55,7 @@ const TestimonialCard = () => (
 const RenderClientLogo = () => (
   <div className="">
     <img
-      src="https://firebasestorage.googleapis.com/v0/b/event-park.appspot.com/o/eventpark%20logo.jpg?alt=media&token=2a3d6f30-06a4-4168-ac88-fadf489af201"
+      src="https://firebasestorage.googleapis.com/v0/b/event-park.appspot.com/o/logo.png?alt=media&token=2a3d6f30-06a4-4168-ac88-fadf489af201"
       className="object-contain p-2 md:p-4"
     />
   </div>

@@ -80,11 +80,12 @@ const photos = [
 ];
 
 const events = [
-  "Birthday Decor",
   "Wedding Decor",
   "Corporate Events",
-  "Pre-Wedding Photoshoot",
-  "Party Photoshoot",
+  "Birthday Decor",
+  "Pre-Wedding & Wedding Photoshoot",
+  "Event Photoshoot",
+  "More...",
 ];
 
 const Gallery = ({ aboutRef, galleryRef }) => {
@@ -106,13 +107,15 @@ const Gallery = ({ aboutRef, galleryRef }) => {
           ref={aboutRef}
           className="w-full md:w-3/12 bg-yellow-400 rounded-2xl md:rounded-none md:rounded-l-2xl"
         >
-          <img
-            className="object-cover h-25 w-20 mx-auto mt-6"
-            src={getFiMedia("eventpark%20logo.jpg")}
-            alt="logo"
-          ></img>
+          <video
+            className="object-cover w-24 mx-auto mt-6"
+            autoPlay="autoplay"
+            muted
+            loop
+            src={getFiMedia("animated-logo.mov")}
+          ></video>
           <div className="text-center my-2 text-4xl">About Us</div>
-          <div className="text-justify my-4 px-6 text-sm leading-4">
+          <div className="text-justify my-4 px-6 text-lg leading-5">
             Event Park is a stage where we plan for your wedding that you've
             always imagined of, the dream come true moment. We take care of
             everything, curated in a package which includes Decor & Photography,
@@ -120,7 +123,7 @@ const Gallery = ({ aboutRef, galleryRef }) => {
             following all safety protocols as your occasion deserves the best
             and the most careful execution.
           </div>
-          <div className="flex flex-col my-2 justify-around mx-4">
+          <div className="flex flex-col my-2 justify-around mx-8">
             {events.map((label) => renderEvent(label))}
           </div>
         </div>
@@ -137,7 +140,7 @@ const Gallery = ({ aboutRef, galleryRef }) => {
               style={{ paddingTop: "56.25%" }}
             >
               <video
-                src={getFiMedia("video.mp4")}
+                src={getFiMedia("hero-video.m4v")}
                 autoPlay="autoplay"
                 muted
                 loop
