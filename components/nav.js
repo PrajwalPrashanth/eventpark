@@ -9,8 +9,8 @@ const Nav = ({ className, aboutRef, galleryRef, contactRef, scrollToView }) => (
     )}
   >
     <img
-      className="object-contain w-20 md:mr-auto"
-      src="https://firebasestorage.googleapis.com/v0/b/event-park.appspot.com/o/eventpark%20logo.jpg?alt=media"
+      className="object-contain w-20 md:w-28 md:mr-auto"
+      src="https://firebasestorage.googleapis.com/v0/b/event-park.appspot.com/o/logo.png?alt=media"
       alt="logo"
     ></img>
     <div className="mx-auto md:mr-auto text-white">

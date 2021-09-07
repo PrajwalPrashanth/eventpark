@@ -22,7 +22,7 @@ export default function Home() {
         />
         <link
           rel="icon"
-          href="https://firebasestorage.googleapis.com/v0/b/event-park.appspot.com/o/eventpark%20logo.jpg?alt=media"
+          href="https://firebasestorage.googleapis.com/v0/b/event-park.appspot.com/o/logo.png?alt=media"
         />
       </Head>
       <Hero
