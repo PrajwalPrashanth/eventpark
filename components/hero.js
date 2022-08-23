@@ -14,7 +14,7 @@ const Hero = (props) => (
       Event Park
     </h1>
     <div className="absolute right-10 bottom-10 text-white z-30 text-2xl md:text-4xl bg-black bg-opacity-70 px-6 py-2 rounded-lg">
-      Celebration never ends
+      Celebration never ends..
     </div>
   </div>
 );
